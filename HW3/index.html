@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Simple Calculator</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="page.css">
+        <script src="calculator.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Simple Calculator</h1>
+        </header>
+
+        <form>
+            <label for="value1">First Value: </label>
+            <input type="text" name="first_value" id="value1" required>
+            <div id="operation">
+                <label for="r1">+</label>
+                <input type="radio" value="+" name="op" id="r1" required> <br>
+                <label for="r2">-</label>
+                <input type="radio" value="-" name="op" id="r2"> <br>
+                <label for="r3">x</label>
+                <input type="radio" value="*" name="op" id="r3"> <br>
+                <label for="r4">&divide;</label>
+                <input type="radio" value="/" name="op" id="r4">
+            </div>
+            <label for="value2">Second Value: </label>
+            <input type="text" name="second_value" id="value2" required>
+            <input type="button" value="compute" onclick="main();">
+        </form>
+
+        <p id="result">
+            Result: 
+        </p>
+    </body>
+</html>

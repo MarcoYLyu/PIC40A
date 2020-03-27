@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="page.js" defer></script>
+    </head>
+
+    <main>
+        <form>
+            <fieldset>
+                <label for="word">word</label>
+                <input id="word" type="text" name="word" value=" " required>
+                <label for="file">filename</label>
+                <input id="file" type="text" name="file" required>
+                <input type="button" name="search" value="search" onclick="loadDoc();">
+            </fieldset>
+        </form>
+
+        <p id="result"></p>
+    </main>
+</html>

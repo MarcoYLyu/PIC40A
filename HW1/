@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yi's stories</title>
+</head>
+
+<body>
+    <!--Navigation & Headers-->
+    <header> 
+        <h1>Yi's Stories</h1>
+        <h3>Mythology</h3>
+
+        <nav>
+            <ul>
+                <li><a href="#story1">Iliad</a></li>
+                <li><a href="#story2">Odysses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Body part goes-->
+    <main>
+		<section id="#story1">
+    	<h3>Iliad</h3>
+		</section>	
+
+		<section id="#story2">
+ 		<h3>Odysses</h3>
+		</section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+/* the default font */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* the border of the display background*/
+#controller {
+    border: 3px solid green;
+    display: inline-block;
+}
+
+/* the box in the animation */
+#box {
+    float: left;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,9 @@
+/* Draw a box around the operator list*/
+#operation {
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    height: auto;
+    width: 50px;
+}

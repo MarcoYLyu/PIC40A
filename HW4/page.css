@@ -1,0 +1,28 @@
+/* the default font */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* the background (not needed) */
+#background {
+    position: relative;
+    background-color: grey;
+}
+
+/* initial properties of the box */
+#box {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    height: 100px;
+    width: 200px;
+    background-color: red;
+}
+
+/* the welcome message */
+#welcome {
+    margin: 0px;
+    top: 0px;
+    text-align: center;
+}

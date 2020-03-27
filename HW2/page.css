@@ -1,0 +1,102 @@
+body {
+    background: #fdfff5;
+    color: #555555;
+}
+
+header {
+    color: rgba(145, 120, 9, 0.904);
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header .title {
+    text-align: center;
+}
+
+article {
+    position: relative;
+}
+
+table {
+    left: 0;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    float: left;
+    border: 1px solid black;
+}
+
+td, th {
+	border: 1px solid black;
+	text-align: left;
+}
+
+
+/* pictures */
+
+.pic {
+    position: relative;
+    right: 0px;
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin: 10px;
+}
+
+#pic1 img{
+    position: absolute;
+    right: 100px;
+    max-width: 300px;
+    max-height: 240px;
+    float: right;
+	border: 2px solid brown;
+	z-index: 3;
+}
+
+#pic2 img{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    max-width: 300px;
+    max-height: 240px;
+    float: right;
+	border: 2px solid brown;
+	z-index: 2;
+}
+
+#pic3 img{
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    max-width: 300px;
+    max-height: 240px;
+    float: right;
+	border: 2px solid brown;
+	z-index: 1;
+}
+
+/* hover over */
+#pic1 img:hover{
+    border: 5px solid rgba(104, 89, 8, 0.541);
+    z-index: 4;
+}
+
+#pic2 img:hover{
+    border: 5px solid rgba(104, 89, 8, 0.541);
+    z-index: 4;
+}
+
+#pic3 img:hover{
+    border: 5px solid rgba(104, 89, 8, 0.541);
+    z-index: 4;
+}
+
+/* Content */
+
+p {
+    text-indent: 25px;
+}
+
+form {
+	background-color: #87CEFA;	
+}
